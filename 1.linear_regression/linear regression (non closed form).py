@@ -1,5 +1,5 @@
 '''
-Linear regression using non closed form (gradient descent) :: SGD Regression Class
+Linear regression using non closed form (gradient descent)
 '''
 
 import matplotlib.pyplot as plt
