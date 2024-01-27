@@ -52,22 +52,40 @@ print(clf.predict(new_point))
 
 # 2-Dimensional implementation
 # ax = plt.subplot()
-# ax.grid(True, color='#323232')
+# ax.grid(True, color="#323232")
 
-# ax.set_facecolor('black')
-# ax.figure.set_facecolor('#121212')
-# ax.tick_params(axis='x', colors='white')
-# ax.tick_params(axis='y', colors='white')
+# ax.set_facecolor("black")
+# ax.figure.set_facecolor("#121212")
+# ax.tick_params(axis="x", colors="white")
+# ax.tick_params(axis="y", colors="white")
 
-# [ax.scatter(point[0], point[1], color='#104DCA', s=60) for point in points['blue']]
-# [ax.scatter(point[0], point[1], color='#FF0000', s=60) for point in points['red']]
+# [ax.scatter(point[0], point[1], color="#104DCA", s=60) for point in points["blue"]]
+# [ax.scatter(point[0], point[1], color="#FF0000", s=60) for point in points["red"]]
 
 # new_class = clf.predict(new_point)
-# color = '#FF0000' if new_class == 'red' else '#104DCA'
-# ax.scatter(new_point[0], new_point[1], color=color, marker='*', s=200, zorder=100)
+# color = "#FF0000" if new_class == "red" else "#104DCA"
+# ax.scatter(new_point[0], new_point[1], color=color, marker="*", s=200, zorder=100)
 
-# [ax.plot([new_point[0], point[0]], [new_point[1], point[1]], color='#104DCA', linestyle='--', linewidth=1) for point in points['blue']]
-# [ax.plot([new_point[0], point[0]], [new_point[1], point[1]], color='#EF6C35', linestyle='--', linewidth=1) for point in points['red']]
+# [
+#     ax.plot(
+#         [new_point[0], point[0]],
+#         [new_point[1], point[1]],
+#         color="#104DCA",
+#         linestyle="--",
+#         linewidth=1,
+#     )
+#     for point in points["blue"]
+# ]
+# [
+#     ax.plot(
+#         [new_point[0], point[0]],
+#         [new_point[1], point[1]],
+#         color="#EF6C35",
+#         linestyle="--",
+#         linewidth=1,
+#     )
+#     for point in points["red"]
+# ]
 
 # plt.show()
 
