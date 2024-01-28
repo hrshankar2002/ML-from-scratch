@@ -5,7 +5,7 @@ Linear regression using non closed form (gradient descent)
 import matplotlib.pyplot as plt
 import pandas as pd
 
-data = pd.read_csv("student_scores.csv")
+data = pd.read_csv("../assets/student_scores.csv")
  
 # loss function
 
